@@ -14,7 +14,7 @@ try:
 except ImportError:
     HAS_OPENPYXL = False
 
-st.set_page_config(page_title="CarPrice AI - Prediksi Harga Mobil", page_icon="🚗", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="CarPrice - Prediksi Harga Mobil", page_icon="", layout="wide", initial_sidebar_state="collapsed")
 
 INTERCEPT = 13.7864
 COEF = {
@@ -786,7 +786,7 @@ with tab4:
 # ══════════════════════════════════════════════════════════════════════════════
 st.markdown("""
 <div class="site-footer">
-  <div class="footer-title">🚗 CarPrice AI — Prediksi Harga Mobil</div>
+  <div class="footer-title">CarPrice AI — Prediksi Harga Mobil</div>
   <div class="footer-sub">Sistem prediksi harga berbasis Machine Learning · Dataset Car_sales.xlsx</div>
   <div class="footer-divider"></div>
   <div class="footer-tags">
